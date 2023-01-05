@@ -1,0 +1,33 @@
+.button-container {
+    height: 100%;
+    width: 100%;
+    padding: 1em 1.5em;
+    background: #fff;
+    border: 1px solid #8a78f0;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: var(--font-family)
+}
+
+.normal {
+    height: 100%;
+    width: 100%;
+    padding: 1em 1.5em;
+    background: #8a78f0;
+    border: 1px solid #8a78f0;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: var(--font-family)
+}
+.google {
+    background: #004aac;
+    color: #fff;
+}

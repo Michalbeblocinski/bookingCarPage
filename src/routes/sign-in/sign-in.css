@@ -1,0 +1,27 @@
+
+.glassForm {
+    background:  #e0e1f8 !important;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    padding: 4vw;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    gap: 6vw;
+}
+.glassForm .cr__signIn-form {
+    width: 100%;
+}
+.glassForm .sbtn2 {
+    width: 100%;
+    padding: 0.8vw;
+}
+.glassForm .cr__signIn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+}

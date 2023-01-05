@@ -1,0 +1,137 @@
+
+.cr_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 6rem;
+}
+.cr_navbar a {
+    text-decoration: none;
+    color: #717585;
+}
+.cr_navbar a:hover {
+
+    color: #8a78f0;
+}
+.cr_navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cr_navbar-links_logo {
+  margin: 2rem;
+}
+.cr_navbar-links_logo img {
+  width: 102px;
+  height: 64px;
+}
+
+.cr_navbar-links_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.cr_navbar-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cr_navbar-links_container p,
+.cr_navbar-sign p,
+.cr_navbar-menu_container p {
+  color: #717585;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.cr_navbar-sign button, 
+.cr_navbar-menu_container button {
+    padding: 1rem 2rem;
+    font-family: var(--font-family);
+    color: #fff;
+    background-color: #8a78f0;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: rgba(119, 85, 184, 0.685) 0px 5px 15px;
+    
+} 
+.cr_navbar-menu {
+    margin-left: 1rem;
+
+    display: none;
+    position: relative;
+}
+
+.cr_navbar-menu svg {
+    cursor: pointer;
+}
+.cr_navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background-color: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+}
+.cr_navbar-menu_container p {
+    margin: 1rem 0;
+}
+.cr_navbar-menu_container-links-sign {
+    display: none;
+}
+.account_link {
+    display: none;
+}
+@media screen and (max-width: 1110px) {
+    .cr_navbar-links_container {
+        display: none;
+    }
+    .cr_navbar-menu {
+        display: flex;
+    }
+    .account_link {
+        display: block;
+    }
+}
+@media screen and (max-width: 700px) {
+    .cr_navbar {
+        padding: 2rem 4rem;
+    }
+
+}
+@media screen and (max-width: 550px) {
+    .cr_navbar {
+        padding: 2rem;
+    }
+    .cr_navbar-sign button{
+        display: none;
+    }
+    .cr_navbar-menu_container{
+        top:20px;
+    }
+    .cr_navbar-menu-links-sign {
+        display:block;
+    }
+}
+    

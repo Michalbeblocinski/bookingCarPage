@@ -1,0 +1,39 @@
+.cr__features-pFcontainer{
+    background: #fff;
+    margin: 2rem 4rem;
+    padding: 3vh;
+    -webkit-box-shadow: 1px 10px 40px 5px rgba(202, 190, 212, 1);
+    -moz-box-shadow: 1px 10px 40px 5px rgba(202, 190, 212, 1);
+    box-shadow: 1px 10px 40px 5px rgba(202, 190, 212, 1);
+    border-radius: 30px;
+    font-family: var(--font-family);
+    }
+.cr__features-pFname{
+    color: var(--color-text2);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+.cr__features-pFspecify{
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    margin: 1rem 0;
+    color: var(--color-text1);
+}
+.cr__features-pFspecify i{
+   margin: 0 1rem 0 0.2rem;
+   color: var(--color-text1);
+}
+.cr__features-pFprice {
+    margin-top: 1rem;
+    color: var(--color-text2);
+}
+.cr__features-pFprice-day {
+    font-weight: bold;
+    font-size: 30px;
+}
+.cr__features-pFimage img {
+    width: 100%;
+    height: 100%;
+}

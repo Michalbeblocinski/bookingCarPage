@@ -1,0 +1,50 @@
+.button {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 1em 1.5em;
+    background: #fff;
+    border: 1px solid #8a78f0;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: var(--font-family)
+}
+
+.button:hover,
+.button:active {
+    background: rgba(138,120,240, 0.1)
+}
+
+.button__text,
+.button__icon {
+    padding: 0 8px;
+    color: #8a78f0;
+    height: 100%;
+}
+
+.button__icon {
+    margin: 0.2em;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 700px) {
+    .button {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .button {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .button {
+        font-size: 8px;
+    }
+}

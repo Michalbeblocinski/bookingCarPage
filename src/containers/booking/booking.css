@@ -1,0 +1,23 @@
+.cr_booking__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    background-color: #f7f3fa;
+}
+
+.cr_booking__header-searchbar{ 
+    max-width: 80%;
+}
+.cr_booking_body_carlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cr_booking_body_carlist_row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+}

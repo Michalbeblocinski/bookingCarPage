@@ -1,0 +1,51 @@
+.booking-container {
+    margin-top: 1rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    font-family: var(--font-family); 
+    border-radius: 15px;
+    box-shadow: rgba(78, 23, 180, 0.171) 0px 5px 15px;
+    width: 100%;
+}
+
+.booking-container .button  {
+    margin-top: 22px;
+    height: 50px;
+    width: 10rem;
+    font-family: var(--font-family);
+    color: #fff;
+    background-color: #8a78f0;
+    font-weight: 300;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: rgba(119, 85, 184, 0.685) 0px 5px 15px;
+    
+}
+.booking-container label {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: -0.08em;
+    
+    color: #424a54;
+}
+.booking-container .booking-part {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.booking-container input, .booking-container select {
+    border: 1px solid #ededef;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #fff;
+}
+
+

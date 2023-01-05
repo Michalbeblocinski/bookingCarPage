@@ -1,0 +1,140 @@
+.header_title {
+    color: var(--color-text1);
+}
+
+.cr_header {
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    overflow: hidden;
+}
+
+.cr_header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.cr_header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 75px;
+    letter-spacing: -0.03em;
+}
+
+.cr_header-content p {
+    font-family: var(--font-family);
+    color: var(--color-text1);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    padding-left: 0.1rem;
+}
+
+.cr_header-wrap {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.cr_header-wrap-glass {
+    min-height: 779px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(208, 212, 246, 0.59);
+    border-radius: 16px 0 0 0 ;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.2px);
+    -webkit-backdrop-filter: blur(0.2px);
+    margin-right: 0;
+    z-index: 1;
+}
+
+.cr_header-wrap img {
+    position: absolute;
+    max-height: 100%;
+    left: -60px;
+    z-index: 2; 
+}
+.cr_header-vechicle_options {
+    display: flex;
+    margin-top: 3rem;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.cr_header-vechicle_options Button{
+    margin: 0 1em;
+    
+}
+
+@media screen and (max-width:1340px){
+    .cr_header-wrap {
+        display: none;
+    }
+    .cr_header-content {
+        align-items: center;
+    }
+    .cr_header {
+        text-align: center;
+    }
+    .cr_header h1{
+        font-size: 62px;
+        line-height: 80px;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .cr_header {
+        flex-direction: column;
+    }
+    .cr_header-content {
+        margin: 0 0 3rem;
+    }
+    .cr_header h1{
+        font-size: 52px;
+        line-height: 65px;
+    }
+    .cr_header-content p{
+        font-size: 18px;
+        line-height: 32px;
+        margin: 3rem;
+    }
+    .cr_header-vechicle_options{
+        margin: 0 3rem 3rem;
+    }
+}
+@media screen and (max-width: 815px) {
+    .cr_header h1{
+        font-size: 46px;
+        line-height: 54px;
+    }
+    .cr_header p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .cr_header h1{
+        font-size: 36px;
+        line-height: 60px;
+    }
+    .cr_header p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

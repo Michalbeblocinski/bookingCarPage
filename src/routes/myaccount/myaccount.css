@@ -1,0 +1,69 @@
+.cr__myAcc-container {
+    font-family: var(--font-family);
+    color: var(--color-text2);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e5dcec;
+}
+.cr_myAcc-data-container {
+    
+}
+.cr__myAcc-container-title {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    padding: 1vw;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.cr_myAcc-addCarForm {
+    display: flex;
+    justify-content: center;
+}
+.cr_myAcc-getCars {
+    display: flex;
+    flex-wrap: wrap;
+}
+.addCarForm{
+    
+    max-width: 25vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    padding: 1vw;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.carsDisplayer-title {
+    
+    text-align: center;  
+}
+.carsDisplayer-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.carsDisplyer-content {
+    display: flex;
+    justify-content: center;
+}
+.addCar-title {
+    text-align: center;
+}
+.addCarButton {
+    display: flex;
+    justify-content: space-between;
+}
